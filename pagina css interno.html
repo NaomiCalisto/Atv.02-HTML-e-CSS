@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - CSS interno</title>
+</head>
+
+<style>
+    .bloco_maior {
+        background-color: #2f6c82;
+        width: 500px;
+        height: 500px;
+    }
+
+    .bloco_menor {
+        background-color: #00bab4;
+        width: 50%;
+        height: 50%;
+    }
+
+    .fonte {
+        color: black;
+        background-color: lightgrey;
+        font-size: 25px;
+        font-style: bold;
+        font-family: impact;
+    }
+
+    .pai_body {
+        background-color: rgb(47, 111, 82);
+        width: 50%;
+        height: 50vh;
+    }
+
+    .filha_body {
+        background-color: rgb(185, 149, 112);
+        width: 75%;
+        height: 50%;
+    }
+</style>
+
+<body>
+    <div class="bloco_maior">
+        <div class="bloco_menor">
+            <p class="fonte">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <br>
+    
+    <div class="pai_body">
+        <div class="filha_body">
+        </div>
+    </div>
+</body>
+
+</html>
