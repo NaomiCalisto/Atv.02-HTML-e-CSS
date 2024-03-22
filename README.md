@@ -1,2 +1,2 @@
-# Atv.02-HTML-e-CSS
+# CSS - Interno/Externo/Inline
 Atividade 02 - Pesquisa e Inovação - HTML/CSS
